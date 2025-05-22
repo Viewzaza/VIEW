@@ -1,0 +1,2 @@
+# VIEW
+Configurable response
