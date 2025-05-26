@@ -1,8 +1,8 @@
 #Implement interactive 3D donut using Three.js
-Configurable response
-feat: 
 
-Adds an HTML page that renders a 3D donut (torus) using the Three.js library.
+
+Configurable response
+feat: Adds an HTML page that renders a 3D donut (torus) using the Three.js library.
 
 Key features:
 - A `TorusGeometry` is used for the donut shape with a `MeshStandardMaterial`.
