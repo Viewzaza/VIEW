@@ -1,6 +1,9 @@
 // Import OrbitControls
 import { OrbitControls } from './js/OrbitControls.js';
 
+// Explicitly source THREE from the global window object
+const THREE = window.THREE;
+
 // Ensure Three.js is loaded
 if (typeof THREE === 'undefined') {
     console.error('Three.js has not been loaded. Make sure it is included before this script.');
