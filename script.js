@@ -1,13 +1,11 @@
-// Import OrbitControls
-import { OrbitControls } from './js/OrbitControls.js';
+// Import Three.js and OrbitControls as ES modules
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
-// Explicitly source THREE from the global window object
-const THREE = window.THREE;
-
-// Ensure Three.js is loaded
-if (typeof THREE === 'undefined') {
-    console.error('Three.js has not been loaded. Make sure it is included before this script.');
-}
+// Ensure Three.js is loaded (this check might be redundant with module imports)
+// if (typeof THREE === 'undefined') {
+//     console.error('Three.js has not been loaded. Make sure it is included before this script.');
+// }
 
 // 1. Select the canvas element
 const canvas = document.getElementById('donutCanvas');
