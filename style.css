@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* To prevent scrollbars if canvas is full screen */
+    background-color: #f0f0f0; /* A light gray background */
+}
+
+#donutCanvas {
+    display: block;
+    width: 100vw; /* Make canvas fill viewport width */
+    height: 100vh; /* Make canvas fill viewport height */
+}
