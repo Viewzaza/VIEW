@@ -1,6 +1,6 @@
 // Import Three.js and OrbitControls as ES modules
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from './js/OrbitControls.js';
 
 // Ensure Three.js is loaded (this check might be redundant with module imports)
 // if (typeof THREE === 'undefined') {
